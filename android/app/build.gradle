@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.healthapp"
+    namespace "com.healthappreactnative"
     defaultConfig {
-        applicationId "com.healthapp"
+        applicationId "com.healthappreactnative"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

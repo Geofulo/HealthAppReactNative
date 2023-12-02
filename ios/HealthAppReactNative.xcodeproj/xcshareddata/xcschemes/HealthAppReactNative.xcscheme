@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "HealthApp.app"
-               BlueprintName = "HealthApp"
-               ReferencedContainer = "container:HealthApp.xcodeproj">
+               BuildableName = "HealthAppReactNative.app"
+               BlueprintName = "HealthAppReactNative"
+               ReferencedContainer = "container:HealthAppReactNative.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "HealthAppTests.xctest"
-               BlueprintName = "HealthAppTests"
-               ReferencedContainer = "container:HealthApp.xcodeproj">
+               BuildableName = "HealthAppReactNativeTests.xctest"
+               BlueprintName = "HealthAppReactNativeTests"
+               ReferencedContainer = "container:HealthAppReactNative.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "HealthApp.app"
-            BlueprintName = "HealthApp"
-            ReferencedContainer = "container:HealthApp.xcodeproj">
+            BuildableName = "HealthAppReactNative.app"
+            BlueprintName = "HealthAppReactNative"
+            ReferencedContainer = "container:HealthAppReactNative.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "HealthApp.app"
-            BlueprintName = "HealthApp"
-            ReferencedContainer = "container:HealthApp.xcodeproj">
+            BuildableName = "HealthAppReactNative.app"
+            BlueprintName = "HealthAppReactNative"
+            ReferencedContainer = "container:HealthAppReactNative.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,4 +1,4 @@
-package com.healthapp;
+package com.healthappreactnative;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
