@@ -38,8 +38,6 @@ function App(): JSX.Element {
 
   const Tab = createBottomTabNavigator();
 
-  const tabOptions = { headerLargeStyle: true };
-
   return (
     <NavigationContainer>
       <Tab.Navigator screenOptions={{ tabBarActiveTintColor: styles.activeTabBar.tintColor }}>

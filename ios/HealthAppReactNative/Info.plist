@@ -35,6 +35,10 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app requires to access to your HealthKit data</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This app requires updates from HealthKit</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>

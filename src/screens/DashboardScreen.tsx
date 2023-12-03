@@ -1,18 +1,28 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import useHealthData from '../hooks/useHealthData';
 
 function DashboardScreen(): JSX.Element {
-    // const {steps} = useHealthData();
+    const {steps} = useHealthData();
 
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <View style={styles.view}>
         <Text>Steps</Text>
-        {/* <Text>{steps}</Text> */}
-
-        
+        <Text style={styles.stepsCount}>{steps}</Text>
         </View>
     );
 }
+
+const styles = StyleSheet.create({
+    view: {
+        flex: 1, 
+        justifyContent: 'center', 
+        alignItems: 'center'
+    },
+    stepsCount: {
+        fontSize: 40,
+        fontWeight: 'bold'
+    },
+});
 
 export default DashboardScreen;
