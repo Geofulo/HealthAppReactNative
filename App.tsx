@@ -8,26 +8,15 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
-  Text,
   useColorScheme,
-  View,
 } from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import DashboardScreen from './src/screens/DashboardScreen';
 import LeaderboardScreen from './src/screens/LeaderboardScreen';
+import ActivitiesScreen from './src/screens/ActivitiesScreen';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -43,6 +32,7 @@ function App(): JSX.Element {
       <Tab.Navigator screenOptions={{ tabBarActiveTintColor: styles.activeTabBar.tintColor }}>
         <Tab.Screen name="Dashboard" component={DashboardScreen} />
         <Tab.Screen name="Leaderboard" component={LeaderboardScreen} />
+        <Tab.Screen name="Activities" component={ActivitiesScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
